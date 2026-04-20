@@ -174,5 +174,5 @@ s
 
 Gamar Ismayilova
 
-linkedin.com/in/gamar-ismayilova
+linkedin.com/in/gamar-ismayilova | gamar.ismayilova@gmail.com
 
