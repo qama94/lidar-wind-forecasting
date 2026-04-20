@@ -16,6 +16,12 @@ How does atmospheric stability affect the validity of Taylor's Frozen Turbulence
 
 Taylor's Frozen Turbulence Hypothesis assumes that wind turbulence patterns are frozen in space and advected downstream at the mean wind speed. This is the core assumption behind LiDAR-based predictive wind control for turbines. The hypothesis works well under low turbulence conditions but breaks down when the atmosphere is unstable and turbulence intensity is high.
 
+![Stability Comparison](results/stability_comparison.png)
+
+![Correlation vs TI](results/correlation_vs_ti.png)
+
+![Power Spectra](results/power_spectra.png)
+
 
 
 \## Methodology
