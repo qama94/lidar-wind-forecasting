@@ -12,10 +12,6 @@ Wind turbines react to wind only after it reaches the rotor, resulting in increa
 
 In practice, coherence between upstream and downstream signals decays in a frequency-dependent way. High-frequency (small-scale) turbulent structures decorrelate rapidly over short distances, while low-frequency structures remain coherent over longer distances. This breakdown is most severe under unstable atmospheric conditions — exactly when loads are highest and prediction matters most.
 
-## Research Proposal
-
-A full research proposal is available in `docs/proposal2_Lidar.odt`, covering background, research gap, hypotheses, methodology, and expected outcomes.
-
 ## Methodology
 
 ### 1. Synthetic Wind Generation
@@ -84,9 +80,8 @@ Real LiDAR measurements show coherence decaying from ~1.0 at low frequencies to 
 ## Repository Structure
 
     lidar-wind-forecasting/
-    ├── 01_data_exploration.ipynb   # Main analysis notebook
-    ├── docs/
-    │   └── proposal2_Lidar.odt     # Research proposal
+    ├── 01_lidar_wind_forecasting.ipynb  # Main analysis notebook
+    ├── data/                            # Downloaded datasets (not tracked)
     ├── results/
     │   ├── stability_comparison.png
     │   ├── correlation_vs_ti.png
@@ -105,7 +100,7 @@ Real LiDAR measurements show coherence decaying from ~1.0 at low frequencies to 
 
     git clone https://github.com/qama94/lidar-wind-forecasting.git
     cd lidar-wind-forecasting
-    pip install numpy scipy matplotlib pandas jupyter xarray netCDF4
+    pip install -r requirements.txt
     jupyter notebook
 
 ## References
